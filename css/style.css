@@ -1,0 +1,69 @@
+@charset "utf-8";
+html{ background:#000; overflow-x:hidden;}
+*{margin:0 auto; padding:0;}
+li{list-style:none;}
+a{color:inherit; text-decoration:none;}
+
+#wrap{ width:100%; height:100%; margin:0 auto;}
+
+.inner{width:85%; margin:0 auto;}
+
+header{width:60%; padding-top:15em; }
+.MYIN{
+  margin:0 auto; display:flex; min-width:480px; max-width:640px; height:250px; 
+  background:#fff; border-radius:35px; 
+}
+figure{
+  min-width:150px; max-width:197px; border-radius:2rem; overflow:hidden; margin:1rem; 
+  background:#aaa;
+}
+figure>img{width:100%; height:100%;}
+
+header>.inner>.MYIN>ul {
+  width:95%; align-content: center; 
+  margin:0 auto; text-align:center;
+}
+header .inner .MYIN ul li {
+  background:linear-gradient(30deg, lightseagreen,#000,red);
+  line-height:100%; border-radius:1rem; overflow:hidden;
+  display:block; width:95%; height:17%; font-size:2rem; color:#fff; margin:1rem auto;
+}
+header .inner .MYIN ul li h2{font-weight:bold; padding:.5rem; font-size:2rem; color:#fff;}
+
+
+.container{
+  min-width:480px; max-width:640px; height:20em; margin-top:12em; 
+  margin-bottom:12em; overflow:hidden; border-radius:1rem;
+}
+.containerBox{
+  opacity:0; width:100%; height:200%; background:#fff; 
+  transition:1s; gap:1px;
+}
+
+
+span{font-size:.8rem;}
+
+.cbox1,.cbox2{width:100%; height:150px; margin:0 auto;}
+.cbox1>h2,.cbox2>h2{text-align:center; margin:0 auto;}
+
+.cbox1>.TOOL{width:100%; display:flex;}
+
+.ToolA{
+  width:2.5rem; height:2.5rem; transition:.6s; border-radius:1rem; margin:.8rem auto; 
+  text-align:center; font-weight:bold; font-size:1.5rem; overflow:hidden;
+  background:linear-gradient(30deg,#00000055,#ff000055); color:#fff;
+}
+
+
+.ToolIMG{width:2.5rem; height:2.5rem; transition:.6s;}
+.ToolA p{height:2.5rem; font-size:1rem;}
+.ToolA:hover p{ color:#000; transition:1s;}
+
+
+.cbox2>.PROJECT{width:100%; display:flex; background:#fff;}
+.cbox2>.PROJECT>a{
+  width:10em; height:8em; transition:.6s; border-radius:1rem; margin:.8rem auto; 
+  text-align:center; font-weight:bold; font-size:.8rem; overflow:hidden;
+  background:linear-gradient(30deg,#00000055,#ff000055); color:#fff;
+}
+.cbox2>.PROJECT>a>img{width:5rem; height:2.5rem; margin-top:.5em; border-radius:.5rem; }
